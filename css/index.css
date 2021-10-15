@@ -1,0 +1,133 @@
+.DivContSuperior{
+    background-color: white;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    padding: 40px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px var(--crl-gray-med);
+    overflow: hidden;
+    
+}
+
+.ContCenter{
+    background-color: white;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px var(--crl-gray-med);
+}
+.Contenedor{
+    background-color: gainsboro;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+}
+
+.ContMedio{
+    overflow: hidden;
+    background-color: white;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    margin-top: 10px;
+    float: left;
+}
+
+.ContTextoPadre{
+    background-color: rgb(255, 255, 255);
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+}
+.ContTextoHijo{
+    background-color: rgb(255, 255, 255);
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+}
+
+.ContTexto{
+    background-color: rgb(255, 255, 255);
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+}
+
+.ContContactosTotales{
+    background-color: rgb(255, 255, 255);
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold
+}
+
+.Encabezado{
+    background-color: white;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    margin-top: 10px;
+}
+
+.Imagen{
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    float: left;
+}
+
+input[type = text]{
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input[type = text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    transition: 0.3s;
+}
+
+.button{
+    background: linear-gradient(10)102deg,#0051ff,#543fd7;
+    color:rgb(0, 0, 0);
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 200px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0  rgba(255, 0, 0, 0.5);
+    animation: pulse 1.5s infinite;
+}

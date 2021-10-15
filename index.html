@@ -1,0 +1,61 @@
+<html>
+    <head>
+       <meta charset = "UTF-8">
+        <title>Agenda personal</title> <!-- Encabezado de la pagina -->
+        <link rel= "stylesheet" href = "css/index.css">
+        <script src = "javascript/index.js"></script>
+    </head>
+    
+    <body onload = "getContactos()">
+       
+        <div id = "DivContSuperior" class = "DivContSuperior"> <!-- Mi foto -->        
+                <div class="Imagen" style="background-image: url(img/imagen_contactos.png)"></div>  
+            <div class = "ContMedio">
+                 <div class = "Encabezado">
+                     <br>
+                      Contactos
+                </div>
+               
+            </div>
+            
+        </div>
+        <div class = "ContTextoPadre">
+           
+            <div class = "ContTextoPadre">
+                <div class = "ContTextoHijo">
+                    Nombre
+                    <input type = "text" id = "txtNombre">
+                </div>
+
+                <div class = "ContTextoHijo">
+                    Apellido
+                    <input type = "text" id = "txtApellido">
+                </div>
+
+                <div class = "ContTextoHijo">
+                    Teléfono
+                    <input type = "text" id = "txtTelefono" class = "texbox">
+                </div>
+
+
+                <div class = "ContTextoHijo">
+                    <button onclick = "AgregarContacto()"  class = "button" id= "btnAgregarContacto">Agregar nuevo contacto</button>
+                </div>
+
+                <div id = "DivContactosTotales"class = "ContContactosTotales">
+                    <br>
+                     Contactos totales: 0
+               </div>
+            </div>
+           
+            
+            </div>
+        </div>
+        
+        <div class = "ContCenter">
+            
+            <div id = "ContenedorDeDivs" class = "Cuerpo"></div>
+        </div>
+    </body>
+    <script src="javascript/index.js"></script>
+</html>
